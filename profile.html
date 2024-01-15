@@ -1,6 +1,92 @@
-Not implemented yet! 
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Homepage</title>
+	<link href="styles.css" rel="stylesheet">
 
-<br>
-<br>
+</head>
+<body>
+	<nav>
+		<ol>
+	        <li class="crumb"><a href="./home.html">Home</a></li>
+	        <li class="crumb"><a href="./profile.html">Profile</a></li>
+	        <li class="crumb"><a href="./about.html">About</a></li>
+            <li class="crumb"><a href="./neighborhood.html">Neighborhood</a></li>
+	    </ol>
+	</nav>
 
-<a href="./home.html"><< Back </a>
+	<content>
+		<p>Welcome to my website! Here you will find some information about me as well as some of my ideas for the future. </p>
+    </content>
+	
+    <section class="main"> 
+        <div id = "skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+                <li>Bootstrap</li>
+            </ul>
+        </div>
+
+        <div id = "i-want-to-learn">
+            <h2>Interests</h2>
+            <ul>
+                <li>React</li>
+                <li>Vue</li>
+                <li>Express</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="main"> 
+        <div id = "interests">
+            <h2>Interests</h2>
+            <ul>
+                <li>Soccer</li>
+                <li>Reading</li>
+                <li>Cooking</li>
+                <li>Web Development</li>
+            </ul>
+        </div>
+
+        <div id = "career">
+            <h2>Career</h2>
+            <ul>
+                <li>Financial industry</li>
+                <li>Interest in:
+                    <ul>
+                     <li>Cybersecurity</li>
+                     <li>Web Development</li>
+                     </ul>
+                </li>
+            </ul>
+        </div>
+   </section>
+   
+   <section class="form"> 
+        <div id = "form">
+            <form>
+                <h2>Please Leave Your Contact Info</h2>
+                <label for="phone">Phone</label>
+                <input type="phone">
+                
+                <label for="email">Email</label>
+                <input type="email">
+                <br>
+                <input type="submit">
+            </form>
+        </div>
+    </section>
+
+    <section> 
+        <button class = "button-style" id="color">My Favorite Color</button>
+        <button class = "button-style" id="place">My Favorite Place</button>
+        <button class = "button-style" id="ritual">My Favorite Ritual</button>
+    </section>
+
+	<script src ="profile.js"></script>
+
+</body>
+</html>

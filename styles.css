@@ -36,3 +36,35 @@ input {
 img {
 	max-width: 300px;
 }
+
+.main{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+}
+
+#form {
+	display: inline-block;
+}
+
+section{
+	margin-bottom: 20px;
+}
+
+.button-style{
+	color: black;
+	background-color: yellow;
+	border: 0;
+	border-radius: 20px;
+	font-size: large;
+
+}
+
+#brighton{
+	display: block;
+}
+
+.fav-restaurant-button{
+	margin-bottom: 20px;
+	display: block;
+}
